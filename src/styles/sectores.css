@@ -1,0 +1,250 @@
+.sectores {
+
+    background: #828890;
+
+    padding: 90px 40px;
+
+    border-top: 1px solid rgba(255,255,255,.06);
+    border-bottom: 1px solid rgba(255,255,255,.06);
+
+}
+
+.sectores__header {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+}
+
+.sectores__header span {
+
+    color: #09151C;
+
+    font-size: .95rem;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+}
+
+.sectores__grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(7,1fr);
+
+    gap: 10px;
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+}
+
+.sector {
+
+    position: relative;
+
+    height: 220px;
+
+    overflow: hidden;
+
+    border-radius: 8px;
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    background: #101923;
+
+    cursor: pointer;
+
+    transition: .35s ease;
+
+}
+
+.sector:hover {
+
+    transform: translateY(-5px);
+
+    border-color: #7ED957;
+
+}
+
+.sector__imagen {
+
+    position: absolute;
+
+    inset: 0;
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    transition: .5s ease;
+
+}
+
+.sector:hover .sector__imagen {
+
+    transform: scale(1.06);
+
+}
+
+.sector__contenido {
+
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    align-items: flex-end;
+
+    gap: 12px;
+
+    padding: 18px;
+
+    background:
+    linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 20%,
+        rgba(0,0,0,.15) 50%,
+        rgba(0,0,0,.75) 100%
+    );
+
+}
+
+.sector__icono {
+
+    width: 30px;
+
+    height: 30px;
+
+    object-fit: contain;
+
+    flex-shrink: 0;
+
+    margin-bottom: 2px;
+
+    filter: brightness(0) invert(1);
+
+}
+
+.sector h3 {
+
+    color: white;
+
+    font-size: .95rem;
+
+    font-weight: 600;
+
+    line-height: 1.2;
+
+    margin: 0;
+
+}
+
+/* ========================= */
+/* IMÁGENES */
+/* ========================= */
+
+.sector__imagen--hospital {
+
+    background-image: url('/src/assets/sectores/hospitales.png');
+
+}
+
+.sector__imagen--industria {
+
+    background-image: url('/src/assets/sectores/industria.png');
+
+}
+
+.sector__imagen--naves {
+
+    background-image: url('/src/assets/sectores/nave-industrial.png');
+
+}
+
+.sector__imagen--residencial {
+
+    background-image: url('/src/assets/sectores/residencial.png');
+
+}
+
+.sector__imagen--comercial {
+
+    background-image: url('/src/assets/sectores/centroscomerciales.png');
+
+}
+
+.sector__imagen--hoteles {
+
+    background-image: url('/src/assets/sectores/hoteles.png');
+
+}
+
+.sector__imagen--escuelas {
+
+    background-image: url('/src/assets/sectores/escuelas.png');
+
+}
+
+/* ========================= */
+/* TABLET */
+/* ========================= */
+
+@media (max-width:1100px) {
+
+    .sectores__grid {
+
+        grid-template-columns: repeat(4,1fr);
+
+    }
+
+}
+
+/* ========================= */
+/* CELULAR */
+/* ========================= */
+
+@media (max-width:700px) {
+
+    .sectores {
+
+        padding: 70px 20px;
+
+    }
+
+    .sectores__grid {
+
+        grid-template-columns: repeat(2,1fr);
+
+        gap: 12px;
+
+    }
+
+    .sector {
+
+        height: 180px;
+
+    }
+
+    .sector__icono {
+
+        width: 24px;
+
+        height: 24px;
+
+    }
+
+    .sector h3 {
+
+        font-size: .85rem;
+
+    }
+
+}

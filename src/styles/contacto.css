@@ -1,0 +1,386 @@
+.contacto{
+
+    background:
+    linear-gradient(
+        90deg,
+        rgba(5,8,12,.65) 0%,
+        rgba(5,8,12,.30) 55%,
+        rgba(5,8,12,.10) 100%
+    ),
+    url('/src/assets/hero/aislamiento.jpg');
+
+    background-size:cover;
+
+    background-position:30% center;
+
+    background-repeat:no-repeat;
+
+    padding:140px 80px;
+
+}
+
+.contacto__header{
+
+    max-width:800px;
+
+    margin:0 auto 60px;
+
+    text-align:center;
+
+}
+
+.contacto__header span{
+
+    color:#7ED957;
+
+    font-size:.85rem;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+}
+
+.contacto__header h2{
+
+    margin-top:15px;
+
+    font-size:4rem;
+
+    line-height:1.1;
+
+    font-weight:500;
+
+}
+
+.contacto__header p{
+
+    max-width:700px;
+
+    margin:20px auto 0;
+
+    color:#BDBDBD;
+
+    line-height:1.8;
+
+    font-size:1.05rem;
+
+}
+
+.contacto__formulario{
+
+    max-width:600px;
+
+    margin:0 auto;
+
+    padding:50px;
+
+    border-radius:18px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #0B1820,
+        #132731
+    );
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.contacto__grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:22px;
+
+}
+
+.campo{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.campo label{
+
+    margin-bottom:10px;
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+}
+
+.campo input,
+.campo select,
+.campo textarea{
+
+    background:#091119;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    color:white;
+
+    padding:16px;
+
+    border-radius:8px;
+
+    font-size:.95rem;
+
+    transition:.3s;
+
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus{
+
+    outline:none;
+
+    border-color:#7ED957;
+
+}
+
+.campo textarea{
+
+    min-height:180px;
+
+    resize:none;
+
+}
+
+.campo--full{
+
+    margin-top:22px;
+
+}
+
+.contacto__boton{
+
+    width:100%;
+
+    margin-top:30px;
+
+    background:#7ED957;
+
+    color:#050505;
+
+    border:none;
+
+    padding:18px;
+
+    border-radius:8px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.contacto__boton:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+    0 10px 25px rgba(126,217,87,.25);
+
+}
+
+.contacto__privacidad{
+
+    margin-top:20px;
+
+    text-align:center;
+
+    color:#8C949C;
+
+    font-size:.85rem;
+
+}
+
+.contacto__privacidad a{
+
+    color:#7ED957;
+
+    text-decoration:none;
+
+}
+
+.contacto__privacidad a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ================================= */
+/* LAPTOP */
+/* ================================= */
+
+@media (max-width:1200px){
+
+    .contacto{
+
+        padding:120px 50px;
+
+    }
+
+    .contacto__header h2{
+
+        font-size:3.5rem;
+
+    }
+
+}
+
+/* ================================= */
+/* TABLET */
+/* ================================= */
+
+@media (max-width:992px){
+
+    .contacto{
+
+        padding:100px 40px;
+
+    }
+
+    .contacto__header{
+
+        margin-bottom:50px;
+
+    }
+
+    .contacto__header h2{
+
+        font-size:3rem;
+
+    }
+
+    .contacto__formulario{
+
+        padding:40px;
+
+    }
+
+    .contacto__grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ================================= */
+/* MOBILE */
+/* ================================= */
+
+@media (max-width:768px){
+
+    .contacto{
+
+        padding:80px 25px;
+
+    }
+
+    .contacto__header h2{
+
+        font-size:2.4rem;
+
+    }
+
+    .contacto__header p{
+
+        font-size:1rem;
+
+        line-height:1.7;
+
+    }
+
+    .contacto__formulario{
+
+        padding:30px 25px;
+
+    }
+
+    .campo input,
+    .campo select,
+    .campo textarea{
+
+        padding:14px;
+
+    }
+
+}
+
+/* ================================= */
+/* MOBILE PEQUEÑO */
+/* ================================= */
+
+@media (max-width:480px){
+
+    .contacto{
+
+        padding:70px 18px;
+
+    }
+
+    .contacto__header{
+
+        margin-bottom:40px;
+
+    }
+
+    .contacto__header span{
+
+        font-size:.75rem;
+
+        letter-spacing:2px;
+
+    }
+
+    .contacto__header h2{
+
+        font-size:2rem;
+
+    }
+
+    .contacto__header p{
+
+        font-size:.95rem;
+
+    }
+
+    .contacto__formulario{
+
+        padding:22px 18px;
+
+        border-radius:14px;
+
+    }
+
+    .campo label{
+
+        font-size:.85rem;
+
+    }
+
+    .campo textarea{
+
+        min-height:150px;
+
+    }
+
+    .contacto__boton{
+
+        padding:16px;
+
+    }
+
+}

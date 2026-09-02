@@ -1,0 +1,506 @@
+.hero{
+
+    min-height:100vh;
+
+    position:relative;
+
+    background:
+    linear-gradient(
+        90deg,
+        rgba(0,0,0,.88) 0%,
+        rgba(0,0,0,.75) 35%,
+        rgba(0,0,0,.35) 100%
+    ),
+    url('/src/assets/hero/hero.jpg');
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:140px 80px 140px;
+
+}
+
+.hero__contenido{
+
+    max-width:950px;
+
+    position:relative;
+
+    z-index:2;
+
+    margin-top:10px;
+
+}
+
+.hero h1{
+
+    font-size:clamp(3.5rem, 4vw, 5rem);
+
+    line-height:1.05;
+
+    font-weight:500;
+
+    letter-spacing:-2px;
+
+    margin-bottom:50px;
+
+    max-width:620px;
+
+}
+
+.hero h2{
+
+    color:#d0d0d0;
+
+    font-size:1.8rem;
+
+    font-weight:700;
+
+    margin-bottom:35px;
+
+}
+
+.hero p{
+
+    color:#d0d0d0;
+
+    font-size:1.2rem;
+
+    line-height:1.8;
+
+    max-width:650px;
+
+    margin-bottom:60px;
+
+}
+
+.hero__botones{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-top:10px;
+
+}
+
+.btn-principal{
+
+    background:var(--verde);
+
+    color:black;
+
+    padding:16px 28px;
+
+    border-radius:8px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.btn-principal:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.btn-secundario{
+
+    border:1px solid rgba(255,255,255,.2);
+
+    color:white;
+
+    padding:16px 28px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.btn-secundario:hover{
+
+    background:rgba(255,255,255,.05);
+
+}
+
+
+/* =========================
+   TARJETA DE ESTADÍSTICAS
+========================= */
+
+.hero__stats{
+
+    position:absolute;
+
+    right:40px;
+
+    bottom:30px;
+
+    display:flex;
+
+    background:rgba(0,0,0,.82);
+
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+    z-index:5;
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,.35);
+
+}
+
+.hero__stat{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:14px;
+
+    padding:20px 22px;
+
+    min-width:190px;
+
+    border-right:1px solid rgba(255,255,255,.08);
+
+}
+
+.hero__stat:last-child{
+
+    border-right:none;
+
+}
+
+.hero__numero{
+
+    color:var(--verde);
+
+    font-size:2.8rem;
+
+    font-weight:500;
+
+    line-height:1;
+
+}
+
+.hero__icono{
+
+    width:32px;
+
+    height:32px;
+
+    min-width:32px;
+
+    object-fit:contain;
+
+    margin-top:2px;
+
+    filter:brightness(0) invert(1);
+
+    opacity:.95;
+
+}
+
+.hero__stat p{
+
+    margin:0;
+
+    color:white;
+
+    font-size:.95rem;
+
+    line-height:1.5;
+
+    max-width:none;
+
+}
+
+.hero-verde{
+
+    color:#7ED957;
+
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+
+/* =========================
+   LAPTOP 1201PX - 1400PX
+========================= */
+
+@media (min-width:1201px) and (max-width:1400px){
+
+    .hero__stats{
+
+        transform:scale(.82);
+
+        transform-origin:right bottom;
+
+    }
+
+}
+
+
+/* =========================
+   HASTA 1200PX
+========================= */
+
+@media (max-width:1200px){
+
+    .hero__stats{
+
+        right:25px;
+
+        bottom:25px;
+
+        transform:scale(.78);
+
+        transform-origin:right bottom;
+
+    }
+
+}
+
+
+/* =========================
+   TABLET / CELULAR
+========================= */
+
+@media (max-width:768px){
+
+    .hero{
+
+        min-height:100svh;
+
+        padding:110px 22px 40px;
+
+        display:flex;
+
+        align-items:flex-start;
+
+        background-attachment:scroll;
+
+        background-position:center center;
+
+    }
+
+    .hero__contenido{
+
+        width:100%;
+
+        max-width:100%;
+
+        margin-top:35px;
+
+    }
+
+    .hero h1{
+
+        font-size:2.5rem;
+
+        line-height:1.08;
+
+        letter-spacing:-1px;
+
+        max-width:100%;
+
+        margin-bottom:32px;
+
+    }
+
+    .hero h2{
+
+        font-size:1.15rem;
+
+        line-height:1.35;
+
+        margin-bottom:20px;
+
+    }
+
+    .hero p{
+
+        font-size:.95rem;
+
+        line-height:1.65;
+
+        max-width:100%;
+
+        margin-bottom:32px;
+
+    }
+
+    .hero__botones{
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:12px;
+
+        width:100%;
+
+    }
+
+    .btn-principal,
+    .btn-secundario{
+
+        width:100%;
+
+        text-align:center;
+
+        padding:15px 20px;
+
+    }
+
+    .hero__stats{
+
+        position:absolute;
+
+        left:15px;
+
+        right:15px;
+
+        bottom:15px;
+
+        transform:none;
+
+        display:flex;
+
+        overflow-x:auto;
+
+        max-width:none;
+
+    }
+
+    .hero__stat{
+
+        min-width:220px;
+
+        padding:18px;
+
+    }
+
+}
+
+
+/* =========================
+   IPHONE / CELULAR PEQUEÑO
+========================= */
+
+@media (max-width:480px){
+
+    .hero{
+
+        min-height:100svh;
+
+        padding:100px 18px 360px;
+
+    }
+
+    .hero__contenido{
+
+        margin-top:30px;
+
+    }
+
+    .hero h1{
+
+        font-size:2.25rem;
+
+        line-height:1.08;
+
+    }
+
+    .hero h2{
+
+        font-size:1.05rem;
+
+        line-height:1.35;
+
+    }
+
+    .hero p{
+
+        font-size:.9rem;
+
+        line-height:1.65;
+
+    }
+
+    .hero__botones{
+
+        gap:10px;
+
+    }
+
+    .btn-principal,
+    .btn-secundario{
+
+        padding:14px 18px;
+
+    }
+
+    .hero__stats{
+
+        left:15px;
+
+        right:15px;
+
+        bottom:15px;
+
+    }
+
+    .hero__stat{
+
+        min-width:200px;
+
+        padding:16px;
+
+    }
+
+    .hero__numero{
+
+        font-size:2.2rem;
+
+    }
+
+    .hero__icono{
+
+        width:26px;
+
+        height:26px;
+
+        min-width:26px;
+
+    }
+
+    .hero__stat p{
+
+        font-size:.78rem;
+
+        line-height:1.4;
+
+    }
+
+}

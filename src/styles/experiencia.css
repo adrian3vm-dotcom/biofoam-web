@@ -1,0 +1,300 @@
+/* ================================= */
+/* EXPERIENCIA */
+/* ================================= */
+
+.experiencia {
+
+    background: #09151C;
+    padding: 90px 60px 70px;
+    border-top: 1px solid rgba(255,255,255,.06);
+    border-bottom: 1px solid rgba(255,255,255,.06);
+    overflow: hidden;
+    text-align: center;
+
+}
+
+
+/* ================================= */
+/* ENCABEZADO */
+/* ================================= */
+
+.experiencia__intro {
+
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.experiencia__tag {
+
+    display: block;
+    color: #7ED957;
+    font-size: .85rem;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    margin-bottom: 18px;
+
+}
+
+.experiencia__intro h2 {
+
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.15;
+    max-width: 800px;
+    margin: 0 auto 18px;
+
+}
+
+.experiencia__intro p {
+
+    color: #B8BEC4;
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+
+
+/* ================================= */
+/* CARRUSEL */
+/* ================================= */
+
+.experiencia__carrusel {
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 55px;
+    padding: 15px 0;
+
+}
+
+.experiencia__carrusel::before,
+.experiencia__carrusel::after {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 140px;
+    z-index: 3;
+    pointer-events: none;
+
+}
+
+.experiencia__carrusel::before {
+
+    left: 0;
+
+    background: linear-gradient(
+        90deg,
+        #05080C 0%,
+        rgba(5,8,12,.8) 35%,
+        transparent 100%
+    );
+
+}
+
+.experiencia__carrusel::after {
+
+    right: 0;
+
+    background: linear-gradient(
+        270deg,
+        #05080C 0%,
+        rgba(5,8,12,.8) 35%,
+        transparent 100%
+    );
+
+}
+
+
+/* ================================= */
+/* TRACK */
+/* ================================= */
+
+.experiencia__track {
+
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    width: max-content;
+
+    animation:
+        experienciaCarrusel
+        40s
+        linear
+        infinite;
+
+}
+
+.experiencia__carrusel:hover .experiencia__track {
+
+    animation-play-state: paused;
+
+}
+
+
+/* ================================= */
+/* LOGOS */
+/* ================================= */
+
+.experiencia__cliente {
+
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.experiencia__cliente img {
+
+    height: 85px;
+    width: auto;
+    max-width: 240px;
+    object-fit: contain;
+
+    /* BLANCO GRISÁCEO TRANSPARENTE */
+    filter:
+        grayscale(100%)
+        brightness(2.4)
+        contrast(.85);
+
+    opacity: .55;
+
+    transition:
+        filter .35s ease,
+        opacity .35s ease,
+        transform .35s ease;
+
+}
+
+
+/* COLOR AL HOVER */
+
+.experiencia__cliente:hover img {
+
+    filter: none;
+    opacity: 1;
+    transform: scale(1.08);
+
+}
+
+
+/* ================================= */
+/* ANIMACIÓN */
+/* ================================= */
+
+@keyframes experienciaCarrusel {
+
+    from {
+
+        transform: translateX(0);
+
+    }
+
+    to {
+
+        transform: translateX(calc(-50% - 40px));
+
+    }
+
+}
+
+
+/* ================================= */
+/* NOTA */
+/* ================================= */
+
+.experiencia__nota {
+
+    color: #626B73;
+    font-size: .7rem;
+    margin: 20px auto 0;
+
+}
+
+
+/* ================================= */
+/* TABLET */
+/* ================================= */
+
+@media (max-width:900px) {
+
+    .experiencia {
+
+        padding: 75px 30px 60px;
+
+    }
+
+    .experiencia__intro h2 {
+
+        font-size: 2.4rem;
+
+    }
+
+    .experiencia__track {
+
+        gap: 55px;
+
+    }
+
+    .experiencia__cliente img {
+
+        height: 55px;
+
+    }
+
+}
+
+
+/* ================================= */
+/* CELULAR */
+/* ================================= */
+
+@media (max-width:600px) {
+
+    .experiencia {
+
+        padding: 60px 20px 50px;
+
+    }
+
+    .experiencia__tag {
+
+        font-size: .72rem;
+        letter-spacing: 2px;
+
+    }
+
+    .experiencia__intro h2 {
+
+        font-size: 2rem;
+        line-height: 1.2;
+
+    }
+
+    .experiencia__intro p {
+
+        font-size: .9rem;
+
+    }
+
+    .experiencia__track {
+
+        gap: 40px;
+
+    }
+
+    .experiencia__cliente img {
+
+        height: 42px;
+        max-width: 120px;
+
+    }
+
+}

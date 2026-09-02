@@ -1,0 +1,286 @@
+.porque{
+
+    background:
+    linear-gradient(
+        180deg,
+        #09151C 100%
+    );
+
+    border-top:1px solid rgba(255,255,255,.05);
+    border-bottom:1px solid rgba(255,255,255,.05);
+
+}
+
+.porque__grid{
+
+    display:grid;
+
+    grid-template-columns:
+    1.8fr repeat(5,1fr);
+
+}
+
+.porque__intro{
+
+    padding:50px;
+
+    border-right:1px solid rgba(255,255,255,.08);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+
+.porque__intro span{
+
+    color:#7ED957;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    margin-bottom:15px;
+
+}
+
+.porque__intro h2{
+
+    font-size:2.2rem;
+
+    line-height:1.15;
+
+    font-weight:500;
+
+}
+
+.beneficio{
+
+    padding:40px 25px;
+
+    text-align:center;
+
+    border-right:1px solid rgba(255,255,255,.08);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    transition:.35s;
+
+}
+
+.beneficio:last-child{
+
+    border-right:none;
+
+}
+
+.beneficio:hover{
+
+    background:
+    rgba(30,136,229,.15);
+
+}
+
+.beneficio__icono{
+
+    width:42px;
+
+    height:42px;
+
+    object-fit:contain;
+
+    margin:0 auto 18px;
+
+    filter:brightness(0) invert(1);
+
+    opacity:.9;
+
+}
+
+.beneficio h3{
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+
+}
+
+.beneficio p{
+
+    color:#B7BDC4;
+
+    line-height:1.6;
+
+    font-size:.9rem;
+
+}
+
+/* ================================= */
+/* LAPTOP */
+/* ================================= */
+
+@media (max-width:1200px){
+
+    .porque__grid{
+
+        grid-template-columns:
+        1.5fr repeat(5,1fr);
+
+    }
+
+    .porque__intro{
+
+        padding:40px;
+
+    }
+
+    .porque__intro h2{
+
+        font-size:2rem;
+
+    }
+
+    .beneficio{
+
+        padding:35px 20px;
+
+    }
+
+}
+
+/* ================================= */
+/* TABLET */
+/* ================================= */
+
+@media (max-width:992px){
+
+    .porque__grid{
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+    .porque__intro{
+
+        grid-column:1 / -1;
+
+        border-right:none;
+
+        border-bottom:1px solid rgba(255,255,255,.08);
+
+        text-align:center;
+
+        padding:50px 40px;
+
+    }
+
+    .beneficio{
+
+        border-right:none;
+
+        border-bottom:1px solid rgba(255,255,255,.08);
+
+        min-height:220px;
+
+    }
+
+    .beneficio:last-child{
+
+        border-bottom:none;
+
+    }
+
+}
+
+/* ================================= */
+/* MOBILE */
+/* ================================= */
+
+@media (max-width:768px){
+
+    .porque__grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .porque__intro{
+
+        padding:40px 25px;
+
+    }
+
+    .porque__intro h2{
+
+        font-size:1.9rem;
+
+    }
+
+    .beneficio{
+
+        padding:35px 25px;
+
+        min-height:auto;
+
+    }
+
+    .beneficio h3{
+
+        font-size:1rem;
+
+    }
+
+    .beneficio p{
+
+        font-size:.95rem;
+
+    }
+
+}
+
+/* ================================= */
+/* MOBILE PEQUEÑO */
+/* ================================= */
+
+@media (max-width:480px){
+
+    .porque__intro{
+
+        padding:35px 20px;
+
+    }
+
+    .porque__intro span{
+
+        font-size:.75rem;
+
+        letter-spacing:1.5px;
+
+    }
+
+    .porque__intro h2{
+
+        font-size:1.7rem;
+
+    }
+
+    .beneficio{
+
+        padding:30px 20px;
+
+    }
+
+    .beneficio__icono{
+
+        width:36px;
+
+        height:36px;
+
+    }
+
+}
