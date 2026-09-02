@@ -248,4 +248,126 @@ en nuestras     soluciones.
 
     `;
 
+
+    return `
+
+    <section class="experiencia" id="experiencia">
+
+        <!-- TODO TU HTML COMPLETO DEL CARRUSEL -->
+
+    </section>
+
+    `;
+
+}
+
+
+/* ================================= */
+/* CARRUSEL TOUCH MOBILE */
+/* ================================= */
+
+export function iniciarCarruselExperiencia() {
+
+    const carrusel =
+        document.querySelector(
+            ".experiencia__carrusel"
+        );
+
+    const track =
+        document.querySelector(
+            ".experiencia__track"
+        );
+
+    if (!carrusel || !track) return;
+
+    function pausar() {
+
+        track.style.animationPlayState =
+            "paused";
+
+    }
+
+    function reanudar() {
+
+        track.style.animationPlayState =
+            "running";
+
+    }
+
+    /* DESKTOP */
+
+    carrusel.addEventListener(
+        "mouseenter",
+        pausar
+    );
+
+    carrusel.addEventListener(
+        "mouseleave",
+        reanudar
+    );
+
+    /* CELULAR */
+
+    carrusel.addEventListener(
+        "touchstart",
+        pausar,
+        { passive: true }
+    );
+
+    carrusel.addEventListener(
+        "touchend",
+        () => {
+
+            setTimeout(
+                reanudar,
+                300
+            );
+
+        },
+        { passive: true }
+    );
+
+    carrusel.addEventListener(
+        "touchcancel",
+        reanudar,
+        { passive: true }
+    );
+
+    /* SI TOCAN FUERA DEL CARRUSEL */
+
+    document.addEventListener(
+        "touchstart",
+        (e) => {
+
+            if (
+                !carrusel.contains(
+                    e.target
+                )
+            ) {
+
+                reanudar();
+
+            }
+
+        },
+        { passive: true }
+    );
+
+    document.addEventListener(
+        "click",
+        (e) => {
+
+            if (
+                !carrusel.contains(
+                    e.target
+                )
+            ) {
+
+                reanudar();
+
+            }
+
+        }
+    );
+
 }
