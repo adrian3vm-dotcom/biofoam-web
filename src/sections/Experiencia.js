@@ -31,213 +31,213 @@ en nuestras     soluciones.
                 <!-- LOGOS -->
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/amstar.webp" alt="Amstar">
+                    <img src="/logo/amstar.webp" alt="Amstar">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/cingular.webp" alt="Cingular">
+                    <img src="/logo/cingular.webp" alt="Cingular">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/costco.webp" alt="Costco">
+                    <img src="/logo/costco.webp" alt="Costco">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/dollar-general.webp" alt="Dollar General">
+                    <img src="/logo/dollar-general.webp" alt="Dollar General">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/extraspace.webp" alt="Extra Space Storage">
+                    <img src="/logo/extraspace.webp" alt="Extra Space Storage">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/food-city.webp" alt="Food City">
+                    <img src="/logo/food-city.webp" alt="Food City">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/food-lion.webp" alt="Food Lion">
+                    <img src="/logo/food-lion.webp" alt="Food Lion">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/golden-corral.webp" alt="Golden Corral">
+                    <img src="/logo/golden-corral.webp" alt="Golden Corral">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/goodwill.webp" alt="Goodwill">
+                    <img src="/logo/goodwill.webp" alt="Goodwill">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/gordon.webp" alt="Gordon Food Service">
+                    <img src="/logo/gordon.webp" alt="Gordon Food Service">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/hardees.webp" alt="Hardee's">
+                    <img src="/logo/hardees.webp" alt="Hardee's">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/home-depot.webp" alt="Home Depot">
+                    <img src="/logo/home-depot.webp" alt="Home Depot">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/king-soopers.webp" alt="King Soopers">
+                    <img src="/logo/king-soopers.webp" alt="King Soopers">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/kroger.webp" alt="Kroger">
+                    <img src="/logo/kroger.webp" alt="Kroger">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/lowes.webp" alt="Lowe's">
+                    <img src="/logo/lowes.webp" alt="Lowe's">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/old-navy.webp" alt="Old Navy">
+                    <img src="/logo/old-navy.webp" alt="Old Navy">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/oreilly.webp" alt="O'Reilly">
+                    <img src="/logo/oreilly.webp" alt="O'Reilly">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/petco.webp" alt="Petco">
+                    <img src="/logo/petco.webp" alt="Petco">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/petsuits.webp" alt="PetSuites">
+                    <img src="/logo/petsuits.webp" alt="PetSuites">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/rack-room.webp" alt="Rack Room Shoes">
+                    <img src="/logo/rack-room.webp" alt="Rack Room Shoes">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/tj-maxx.webp" alt="TJ Maxx">
+                    <img src="/logo/tj-maxx.webp" alt="TJ Maxx">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/tsc.webp" alt="Tractor Supply">
+                    <img src="/logo/tsc.webp" alt="Tractor Supply">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/verizon.webp" alt="Verizon">
+                    <img src="/logo/verizon.webp" alt="Verizon">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/waffle-house.webp" alt="Waffle House">
+                    <img src="/logo/waffle-house.webp" alt="Waffle House">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/walgreens.webp" alt="Walgreens">
+                    <img src="/logo/walgreens.webp" alt="Walgreens">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/walmart.webp" alt="Walmart">
+                    <img src="/logo/walmart.webp" alt="Walmart">
                 </div>
 
                 <!-- DUPLICADOS PARA LOOP INFINITO -->
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/amstar.webp" alt="Amstar">
+                    <img src="/logo/amstar.webp" alt="Amstar">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/cingular.webp" alt="Cingular">
+                    <img src="/logo/cingular.webp" alt="Cingular">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/costco.webp" alt="Costco">
+                    <img src="/logo/costco.webp" alt="Costco">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/dollar-general.webp" alt="Dollar General">
+                    <img src="/logo/dollar-general.webp" alt="Dollar General">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/extraspace.webp" alt="Extra Space Storage">
+                    <img src="/logo/extraspace.webp" alt="Extra Space Storage">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/food-city.webp" alt="Food City">
+                    <img src="/logo/food-city.webp" alt="Food City">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/food-lion.webp" alt="Food Lion">
+                    <img src="/logo/food-lion.webp" alt="Food Lion">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/golden-corral.webp" alt="Golden Corral">
+                    <img src="/logo/golden-corral.webp" alt="Golden Corral">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/goodwill.webp" alt="Goodwill">
+                    <img src="/logo/goodwill.webp" alt="Goodwill">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/gordon.webp" alt="Gordon Food Service">
+                    <img src="/logo/gordon.webp" alt="Gordon Food Service">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/hardees.webp" alt="Hardee's">
+                    <img src="/logo/hardees.webp" alt="Hardee's">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/home-depot.webp" alt="Home Depot">
+                    <img src="/logo/home-depot.webp" alt="Home Depot">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/king-soopers.webp" alt="King Soopers">
+                    <img src="/logo/king-soopers.webp" alt="King Soopers">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/kroger.webp" alt="Kroger">
+                    <img src="/logo/kroger.webp" alt="Kroger">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/lowes.webp" alt="Lowe's">
+                    <img src="/logo/lowes.webp" alt="Lowe's">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/old-navy.webp" alt="Old Navy">
+                    <img src="/logo/old-navy.webp" alt="Old Navy">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/oreilly.webp" alt="O'Reilly">
+                    <img src="/logo/oreilly.webp" alt="O'Reilly">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/petco.webp" alt="Petco">
+                    <img src="/logo/petco.webp" alt="Petco">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/petsuits.webp" alt="PetSuites">
+                    <img src="/logo/petsuits.webp" alt="PetSuites">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/rack-room.webp" alt="Rack Room Shoes">
+                    <img src="/logo/rack-room.webp" alt="Rack Room Shoes">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/tj-maxx.webp" alt="TJ Maxx">
+                    <img src="/logo/tj-maxx.webp" alt="TJ Maxx">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/tsc.webp" alt="Tractor Supply">
+                    <img src="/logo/tsc.webp" alt="Tractor Supply">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/verizon.webp" alt="Verizon">
+                    <img src="/logo/verizon.webp" alt="Verizon">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/waffle-house.webp" alt="Waffle House">
+                    <img src="/logo/waffle-house.webp" alt="Waffle House">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/walgreens.webp" alt="Walgreens">
+                    <img src="/logo/walgreens.webp" alt="Walgreens">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/walmart.webp" alt="Walmart">
+                    <img src="/logo/walmart.webp" alt="Walmart">
                 </div>
 
             </div>

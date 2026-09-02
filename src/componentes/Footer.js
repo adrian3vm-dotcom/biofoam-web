@@ -1,5 +1,4 @@
 import "../styles/footer.css";
-import logoBiofoam from '../assets/logo/logo-biofoam-blancoo.webp';
 
 export function Footer() {
   return `
@@ -9,7 +8,7 @@ export function Footer() {
 
         <div class="footer__logo-box">
           <img
-            src="${logoBiofoam}"
+            src="/logo/logo-biofoam-blancoo.webp"
             alt="Bio Foam"
             class="footer__logo"
           >

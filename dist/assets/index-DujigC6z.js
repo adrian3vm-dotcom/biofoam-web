@@ -1,11 +1,11 @@
-(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var e=`/biofoam-web/assets/logo-biofoam-blancoo-CaH_ZnJs.webp`;function t(){return`
+(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();function e(){return`
 
     <header id="header" class="header">
 
         <a href="#hero" class="header__logo">
 
             <img
-                src="${e}"
+                src="/logo/logo-biofoam-blancoo.webp"
                 alt="Bio Foam"
             >
 
@@ -37,7 +37,7 @@
 
     </header>
 
-    `}function n(){let e=document.getElementById(`menuBtn`),t=document.getElementById(`navMenu`);!e||!t||(e.addEventListener(`click`,()=>{e.classList.toggle(`active`),t.classList.toggle(`active`)}),t.querySelectorAll(`a`).forEach(n=>{n.addEventListener(`click`,()=>{e.classList.remove(`active`),t.classList.remove(`active`)})}))}var r=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-map'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M14.106%205.553a2%202%200%200%200%201.788%200l3.659-1.83A1%201%200%200%201%2021%204.619v12.764a1%201%200%200%201-.553.894l-4.553%202.277a2%202%200%200%201-1.788%200l-4.212-2.106a2%202%200%200%200-1.788%200l-3.659%201.83A1%201%200%200%201%203%2019.381V6.618a1%201%200%200%201%20.553-.894l4.553-2.277a2%202%200%200%201%201.788%200z'%20/%3e%3cpath%20d='M15%205.764v15'%20/%3e%3cpath%20d='M9%203.236v15'%20/%3e%3c/svg%3e`,i=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-shield-check'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M20%2013c0%205-3.5%207.5-7.66%208.95a1%201%200%200%201-.67-.01C7.5%2020.5%204%2018%204%2013V6a1%201%200%200%201%201-1c2%200%204.5-1.2%206.24-2.72a1.17%201.17%200%200%201%201.52%200C14.51%203.81%2017%205%2019%205a1%201%200%200%201%201%201z'%20/%3e%3cpath%20d='m9%2012%202%202%204-4'%20/%3e%3c/svg%3e`,a=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-building-2'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M10%2012h4'%20/%3e%3cpath%20d='M10%208h4'%20/%3e%3cpath%20d='M14%2021v-3a2%202%200%200%200-4%200v3'%20/%3e%3cpath%20d='M6%2010H4a2%202%200%200%200-2%202v7a2%202%200%200%200%202%202h16a2%202%200%200%200%202-2V9a2%202%200%200%200-2-2h-2'%20/%3e%3cpath%20d='M6%2021V5a2%202%200%200%201%202-2h8a2%202%200%200%201%202%202v16'%20/%3e%3c/svg%3e`;function o(){return`
+    `}function t(){let e=document.getElementById(`menuBtn`),t=document.getElementById(`navMenu`);!e||!t||(e.addEventListener(`click`,()=>{e.classList.toggle(`active`),t.classList.toggle(`active`)}),t.querySelectorAll(`a`).forEach(n=>{n.addEventListener(`click`,()=>{e.classList.remove(`active`),t.classList.remove(`active`)})}))}var n=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-map'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M14.106%205.553a2%202%200%200%200%201.788%200l3.659-1.83A1%201%200%200%201%2021%204.619v12.764a1%201%200%200%201-.553.894l-4.553%202.277a2%202%200%200%201-1.788%200l-4.212-2.106a2%202%200%200%200-1.788%200l-3.659%201.83A1%201%200%200%201%203%2019.381V6.618a1%201%200%200%201%20.553-.894l4.553-2.277a2%202%200%200%201%201.788%200z'%20/%3e%3cpath%20d='M15%205.764v15'%20/%3e%3cpath%20d='M9%203.236v15'%20/%3e%3c/svg%3e`,r=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-shield-check'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M20%2013c0%205-3.5%207.5-7.66%208.95a1%201%200%200%201-.67-.01C7.5%2020.5%204%2018%204%2013V6a1%201%200%200%201%201-1c2%200%204.5-1.2%206.24-2.72a1.17%201.17%200%200%201%201.52%200C14.51%203.81%2017%205%2019%205a1%201%200%200%201%201%201z'%20/%3e%3cpath%20d='m9%2012%202%202%204-4'%20/%3e%3c/svg%3e`,i=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-building-2'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M10%2012h4'%20/%3e%3cpath%20d='M10%208h4'%20/%3e%3cpath%20d='M14%2021v-3a2%202%200%200%200-4%200v3'%20/%3e%3cpath%20d='M6%2010H4a2%202%200%200%200-2%202v7a2%202%200%200%200%202%202h16a2%202%200%200%200%202-2V9a2%202%200%200%200-2-2h-2'%20/%3e%3cpath%20d='M6%2021V5a2%202%200%200%201%202-2h8a2%202%200%200%201%202%202v16'%20/%3e%3c/svg%3e`;function a(){return`
 
     <section id="hero" class="hero">
 
@@ -98,7 +98,7 @@
             <div class="hero__stat">
 
                 <img
-                    src="${r}"
+                    src="${n}"
                     alt="Cobertura"
                     class="hero__icono"
                 >
@@ -114,7 +114,7 @@
             <div class="hero__stat">
 
                 <img
-                    src="${i}"
+                    src="${r}"
                     alt="Instalación"
                     class="hero__icono"
                 >
@@ -129,7 +129,7 @@
             <div class="hero__stat">
 
                 <img
-                    src="${a}"
+                    src="${i}"
                     alt="Edificios"
                     class="hero__icono"
                 >
@@ -145,7 +145,7 @@
 
     </section>
 
-    `}var s=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-sun-medium'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3ccircle%20cx='12'%20cy='12'%20r='4'%20/%3e%3cpath%20d='M12%203v1'%20/%3e%3cpath%20d='M12%2020v1'%20/%3e%3cpath%20d='M3%2012h1'%20/%3e%3cpath%20d='M20%2012h1'%20/%3e%3cpath%20d='m18.364%205.636-.707.707'%20/%3e%3cpath%20d='m6.343%2017.657-.707.707'%20/%3e%3cpath%20d='m5.636%205.636.707.707'%20/%3e%3cpath%20d='m17.657%2017.657.707.707'%20/%3e%3c/svg%3e`,c=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-volume-2'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M11%204.702a.705.705%200%200%200-1.203-.498L6.413%207.587A1.4%201.4%200%200%201%205.416%208H3a1%201%200%200%200-1%201v6a1%201%200%200%200%201%201h2.416a1.4%201.4%200%200%201%20.997.413l3.383%203.384A.705.705%200%200%200%2011%2019.298z'%20/%3e%3cpath%20d='M16%209a5%205%200%200%201%200%206'%20/%3e%3cpath%20d='M19.364%2018.364a9%209%200%200%200%200-12.728'%20/%3e%3c/svg%3e`,l=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-zap'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M15.914%204a1.5%201.5%200%2000-2.474-1.561l-9%209A1.5%201.5%200%20005.5%2014h4.002a.5.5%200%2001.471.666L8.086%2020a1.5%201.5%200%20002.475%201.56l9-9A1.5%201.5%200%200018.5%2010h-3.997a.5.5%200%2001-.472-.667z'%20/%3e%3c/svg%3e`,u=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-brick-wall'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3crect%20width='18'%20height='18'%20x='3'%20y='3'%20rx='2'%20/%3e%3cpath%20d='M12%209v6'%20/%3e%3cpath%20d='M16%2015v6'%20/%3e%3cpath%20d='M16%203v6'%20/%3e%3cpath%20d='M3%2015h18'%20/%3e%3cpath%20d='M3%209h18'%20/%3e%3cpath%20d='M8%2015v6'%20/%3e%3cpath%20d='M8%203v6'%20/%3e%3c/svg%3e`;function d(){return`
+    `}var o=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-sun-medium'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3ccircle%20cx='12'%20cy='12'%20r='4'%20/%3e%3cpath%20d='M12%203v1'%20/%3e%3cpath%20d='M12%2020v1'%20/%3e%3cpath%20d='M3%2012h1'%20/%3e%3cpath%20d='M20%2012h1'%20/%3e%3cpath%20d='m18.364%205.636-.707.707'%20/%3e%3cpath%20d='m6.343%2017.657-.707.707'%20/%3e%3cpath%20d='m5.636%205.636.707.707'%20/%3e%3cpath%20d='m17.657%2017.657.707.707'%20/%3e%3c/svg%3e`,s=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-volume-2'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M11%204.702a.705.705%200%200%200-1.203-.498L6.413%207.587A1.4%201.4%200%200%201%205.416%208H3a1%201%200%200%200-1%201v6a1%201%200%200%200%201%201h2.416a1.4%201.4%200%200%201%20.997.413l3.383%203.384A.705.705%200%200%200%2011%2019.298z'%20/%3e%3cpath%20d='M16%209a5%205%200%200%201%200%206'%20/%3e%3cpath%20d='M19.364%2018.364a9%209%200%200%200%200-12.728'%20/%3e%3c/svg%3e`,c=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-zap'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M15.914%204a1.5%201.5%200%2000-2.474-1.561l-9%209A1.5%201.5%200%20005.5%2014h4.002a.5.5%200%2001.471.666L8.086%2020a1.5%201.5%200%20002.475%201.56l9-9A1.5%201.5%200%200018.5%2010h-3.997a.5.5%200%2001-.472-.667z'%20/%3e%3c/svg%3e`,l=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-brick-wall'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3crect%20width='18'%20height='18'%20x='3'%20y='3'%20rx='2'%20/%3e%3cpath%20d='M12%209v6'%20/%3e%3cpath%20d='M16%2015v6'%20/%3e%3cpath%20d='M16%203v6'%20/%3e%3cpath%20d='M3%2015h18'%20/%3e%3cpath%20d='M3%209h18'%20/%3e%3cpath%20d='M8%2015v6'%20/%3e%3cpath%20d='M8%203v6'%20/%3e%3c/svg%3e`;function u(){return`
 
     <section id="problemas" class="problemas">
 
@@ -164,7 +164,7 @@
             <div class="problema">
 
                 <img
-                    src="${s}"
+                    src="${o}"
                     alt="Exceso de calor"
                     class="problema__icono"
                 >
@@ -182,7 +182,7 @@
             <div class="problema">
 
                 <img
-                    src="${c}"
+                    src="${s}"
                     alt="Problemas acústicos"
                     class="problema__icono"
                 >
@@ -200,7 +200,7 @@
             <div class="problema">
 
                 <img
-                    src="${l}"
+                    src="${c}"
                     alt="Altos costos de energía"
                     class="problema__icono"
                 >
@@ -220,7 +220,7 @@
             <div class="problema">
 
                 <img
-                    src="${u}"
+                    src="${l}"
                     alt="Muros sin aislamiento"
                     class="problema__icono"
                 >
@@ -241,7 +241,7 @@
 
     </section>
 
-    `}var f=`/biofoam-web/assets/core-W8Z3vtv_.webp`,p=`/biofoam-web/assets/iso-BFCdfZHh.webp`;function m(){return`
+    `}var d=`/assets/core-vC7rhMs9.webp`,f=`/assets/iso-LdeOe4Kn.webp`;function p(){return`
 
     <section id="soluciones" class="soluciones">
 
@@ -297,7 +297,7 @@
                 <div class="producto__imagen producto__imagen--core">
 
                     <img
-                        src="${f}"
+                        src="${d}"
                         alt="Core Foam"
                     >
 
@@ -345,7 +345,7 @@
                 <div class="producto__imagen">
 
                     <img
-                        src="${p}"
+                        src="${f}"
                         alt="Insul Smart"
                     >
 
@@ -357,7 +357,7 @@
 
     </section>
 
-    `}var h=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-drill'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M10%2018a1%201%200%200%201%201%201v2a1%201%200%200%201-1%201H5a3%203%200%200%201-3-3%201%201%200%200%201%201-1z'%20/%3e%3cpath%20d='M13%2010H4a2%202%200%200%201-2-2V4a2%202%200%200%201%202-2h9a1%201%200%200%201%201%201v6a1%201%200%200%201-1%201l-.81%203.242a1%201%200%200%201-.97.758H8'%20/%3e%3cpath%20d='M14%204h3a1%201%200%200%201%201%201v2a1%201%200%200%201-1%201h-3'%20/%3e%3cpath%20d='M18%206h4'%20/%3e%3cpath%20d='m5%2010-2%208'%20/%3e%3cpath%20d='m7%2018%202-8'%20/%3e%3c/svg%3e`,g=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-chart-column'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M3%203v16a2%202%200%200%200%202%202h16'%20/%3e%3cpath%20d='M18%2017V9'%20/%3e%3cpath%20d='M13%2017V5'%20/%3e%3cpath%20d='M8%2017v-3'%20/%3e%3c/svg%3e`,_=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-leaf'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M11%2020A7%207%200%200%201%209.8%206.1C15.5%205%2017%204.48%2019%202c1%202%202%204.18%202%208%200%205.5-4.78%2010-10%2010Z'%20/%3e%3cpath%20d='M2%2021c0-3%201.85-5.36%205.08-6C9.5%2014.52%2012%2013%2013%2012'%20/%3e%3c/svg%3e`;function v(){return`
+    `}var m=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-drill'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M10%2018a1%201%200%200%201%201%201v2a1%201%200%200%201-1%201H5a3%203%200%200%201-3-3%201%201%200%200%201%201-1z'%20/%3e%3cpath%20d='M13%2010H4a2%202%200%200%201-2-2V4a2%202%200%200%201%202-2h9a1%201%200%200%201%201%201v6a1%201%200%200%201-1%201l-.81%203.242a1%201%200%200%201-.97.758H8'%20/%3e%3cpath%20d='M14%204h3a1%201%200%200%201%201%201v2a1%201%200%200%201-1%201h-3'%20/%3e%3cpath%20d='M18%206h4'%20/%3e%3cpath%20d='m5%2010-2%208'%20/%3e%3cpath%20d='m7%2018%202-8'%20/%3e%3c/svg%3e`,h=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-chart-column'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M3%203v16a2%202%200%200%200%202%202h16'%20/%3e%3cpath%20d='M18%2017V9'%20/%3e%3cpath%20d='M13%2017V5'%20/%3e%3cpath%20d='M8%2017v-3'%20/%3e%3c/svg%3e`,g=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-leaf'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M11%2020A7%207%200%200%201%209.8%206.1C15.5%205%2017%204.48%2019%202c1%202%202%204.18%202%208%200%205.5-4.78%2010-10%2010Z'%20/%3e%3cpath%20d='M2%2021c0-3%201.85-5.36%205.08-6C9.5%2014.52%2012%2013%2013%2012'%20/%3e%3c/svg%3e`;function _(){return`
 
     <section id="porque" class="porque">
 
@@ -378,7 +378,7 @@
             <div class="beneficio">
 
                 <img
-                    src="${h}"
+                    src="${m}"
                     alt="Instalación eficiente"
                     class="beneficio__icono"
                 >
@@ -396,7 +396,7 @@
             <div class="beneficio">
 
                 <img
-                    src="${a}"
+                    src="${i}"
                     alt="Obra nueva o existente"
                     class="beneficio__icono"
                 >
@@ -414,7 +414,7 @@
             <div class="beneficio">
 
                 <img
-                    src="${g}"
+                    src="${h}"
                     alt="Eficiencia energética"
                     class="beneficio__icono"
                 >
@@ -432,7 +432,7 @@
             <div class="beneficio">
 
                 <img
-                    src="${_}"
+                    src="${g}"
                     alt="Confort y acústico"
                     class="beneficio__icono"
                 >
@@ -450,7 +450,7 @@
             <div class="beneficio">
 
                 <img
-                    src="${i}"
+                    src="${r}"
                     alt="Experiencia comprobada"
                     class="beneficio__icono"
                 >
@@ -469,7 +469,7 @@
 
     </section>
 
-    `}var y=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-cross'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M4%209a2%202%200%200%200-2%202v2a2%202%200%200%200%202%202h4a1%201%200%200%201%201%201v4a2%202%200%200%200%202%202h2a2%202%200%200%200%202-2v-4a1%201%200%200%201%201-1h4a2%202%200%200%200%202-2v-2a2%202%200%200%200-2-2h-4a1%201%200%200%201-1-1V4a2%202%200%200%200-2-2h-2a2%202%200%200%200-2%202v4a1%201%200%200%201-1%201z'%20/%3e%3c/svg%3e`,b=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-factory'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M12%2016h.01'%20/%3e%3cpath%20d='M16%2016h.01'%20/%3e%3cpath%20d='M3%2019a2%202%200%200%200%202%202h14a2%202%200%200%200%202-2V8.5a.5.5%200%200%200-.769-.422l-4.462%202.844A.5.5%200%200%201%2015%2010.5v-2a.5.5%200%200%200-.769-.422L9.77%2010.922A.5.5%200%200%201%209%2010.5V5a2%202%200%200%200-2-2H5a2%202%200%200%200-2%202z'%20/%3e%3cpath%20d='M8%2016h.01'%20/%3e%3c/svg%3e`,x=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-warehouse'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M18%2021V10a1%201%200%200%200-1-1H7a1%201%200%200%200-1%201v11'%20/%3e%3cpath%20d='M22%2019a2%202%200%200%201-2%202H4a2%202%200%200%201-2-2V8a2%202%200%200%201%201.132-1.803l7.95-3.974a2%202%200%200%201%201.837%200l7.948%203.974A2%202%200%200%201%2022%208z'%20/%3e%3cpath%20d='M6%2013h12'%20/%3e%3cpath%20d='M6%2017h12'%20/%3e%3c/svg%3e`,S=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-house'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M15%2021v-8a1%201%200%200%200-1-1h-4a1%201%200%200%200-1%201v8'%20/%3e%3cpath%20d='M3%2010a2%202%200%200%201%20.709-1.528l7-6a2%202%200%200%201%202.582%200l7%206A2%202%200%200%201%2021%2010v9a2%202%200%200%201-2%202H5a2%202%200%200%201-2-2z'%20/%3e%3c/svg%3e`,C=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-store'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M15%2021v-5a1%201%200%200%200-1-1h-4a1%201%200%200%200-1%201v5'%20/%3e%3cpath%20d='M17.774%2010.31a1.12%201.12%200%200%200-1.549%200%202.5%202.5%200%200%201-3.451%200%201.12%201.12%200%200%200-1.548%200%202.5%202.5%200%200%201-3.452%200%201.12%201.12%200%200%200-1.549%200%202.5%202.5%200%200%201-3.77-3.248l2.889-4.184A2%202%200%200%201%207%202h10a2%202%200%200%201%201.653.873l2.895%204.192a2.5%202.5%200%200%201-3.774%203.244'%20/%3e%3cpath%20d='M4%2010.95V19a2%202%200%200%200%202%202h12a2%202%200%200%200%202-2v-8.05'%20/%3e%3c/svg%3e`,w=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-bed'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M2%204v16'%20/%3e%3cpath%20d='M2%208h18a2%202%200%200%201%202%202v10'%20/%3e%3cpath%20d='M2%2017h20'%20/%3e%3cpath%20d='M6%208v9'%20/%3e%3c/svg%3e`,T=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-graduation-cap'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M21.42%2010.922a1%201%200%200%200-.019-1.838L12.83%205.18a2%202%200%200%200-1.66%200L2.6%209.08a1%201%200%200%200%200%201.832l8.57%203.908a2%202%200%200%200%201.66%200z'%20/%3e%3cpath%20d='M22%2010v6'%20/%3e%3cpath%20d='M6%2012.5V16a6%203%200%200%200%2012%200v-3.5'%20/%3e%3c/svg%3e`;function E(){return`
+    `}var v=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-cross'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M4%209a2%202%200%200%200-2%202v2a2%202%200%200%200%202%202h4a1%201%200%200%201%201%201v4a2%202%200%200%200%202%202h2a2%202%200%200%200%202-2v-4a1%201%200%200%201%201-1h4a2%202%200%200%200%202-2v-2a2%202%200%200%200-2-2h-4a1%201%200%200%201-1-1V4a2%202%200%200%200-2-2h-2a2%202%200%200%200-2%202v4a1%201%200%200%201-1%201z'%20/%3e%3c/svg%3e`,y=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-factory'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M12%2016h.01'%20/%3e%3cpath%20d='M16%2016h.01'%20/%3e%3cpath%20d='M3%2019a2%202%200%200%200%202%202h14a2%202%200%200%200%202-2V8.5a.5.5%200%200%200-.769-.422l-4.462%202.844A.5.5%200%200%201%2015%2010.5v-2a.5.5%200%200%200-.769-.422L9.77%2010.922A.5.5%200%200%201%209%2010.5V5a2%202%200%200%200-2-2H5a2%202%200%200%200-2%202z'%20/%3e%3cpath%20d='M8%2016h.01'%20/%3e%3c/svg%3e`,b=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-warehouse'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M18%2021V10a1%201%200%200%200-1-1H7a1%201%200%200%200-1%201v11'%20/%3e%3cpath%20d='M22%2019a2%202%200%200%201-2%202H4a2%202%200%200%201-2-2V8a2%202%200%200%201%201.132-1.803l7.95-3.974a2%202%200%200%201%201.837%200l7.948%203.974A2%202%200%200%201%2022%208z'%20/%3e%3cpath%20d='M6%2013h12'%20/%3e%3cpath%20d='M6%2017h12'%20/%3e%3c/svg%3e`,x=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-house'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M15%2021v-8a1%201%200%200%200-1-1h-4a1%201%200%200%200-1%201v8'%20/%3e%3cpath%20d='M3%2010a2%202%200%200%201%20.709-1.528l7-6a2%202%200%200%201%202.582%200l7%206A2%202%200%200%201%2021%2010v9a2%202%200%200%201-2%202H5a2%202%200%200%201-2-2z'%20/%3e%3c/svg%3e`,S=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-store'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M15%2021v-5a1%201%200%200%200-1-1h-4a1%201%200%200%200-1%201v5'%20/%3e%3cpath%20d='M17.774%2010.31a1.12%201.12%200%200%200-1.549%200%202.5%202.5%200%200%201-3.451%200%201.12%201.12%200%200%200-1.548%200%202.5%202.5%200%200%201-3.452%200%201.12%201.12%200%200%200-1.549%200%202.5%202.5%200%200%201-3.77-3.248l2.889-4.184A2%202%200%200%201%207%202h10a2%202%200%200%201%201.653.873l2.895%204.192a2.5%202.5%200%200%201-3.774%203.244'%20/%3e%3cpath%20d='M4%2010.95V19a2%202%200%200%200%202%202h12a2%202%200%200%200%202-2v-8.05'%20/%3e%3c/svg%3e`,C=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-bed'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M2%204v16'%20/%3e%3cpath%20d='M2%208h18a2%202%200%200%201%202%202v10'%20/%3e%3cpath%20d='M2%2017h20'%20/%3e%3cpath%20d='M6%208v9'%20/%3e%3c/svg%3e`,w=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-graduation-cap'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M21.42%2010.922a1%201%200%200%200-.019-1.838L12.83%205.18a2%202%200%200%200-1.66%200L2.6%209.08a1%201%200%200%200%200%201.832l8.57%203.908a2%202%200%200%200%201.66%200z'%20/%3e%3cpath%20d='M22%2010v6'%20/%3e%3cpath%20d='M6%2012.5V16a6%203%200%200%200%2012%200v-3.5'%20/%3e%3c/svg%3e`;function T(){return`
 
     <section id="sectores" class="sectores">
 
@@ -488,7 +488,7 @@
                 <div class="sector__contenido">
 
                     <img
-                        src="${y}"
+                        src="${v}"
                         alt="Hospitales"
                         class="sector__icono"
                     >
@@ -507,7 +507,7 @@
                 <div class="sector__contenido">
 
                     <img
-                        src="${b}"
+                        src="${y}"
                         alt="Industria"
                         class="sector__icono"
                     >
@@ -526,7 +526,7 @@
                 <div class="sector__contenido">
 
                     <img
-                        src="${x}"
+                        src="${b}"
                         alt="Naves Industriales"
                         class="sector__icono"
                     >
@@ -545,7 +545,7 @@
                 <div class="sector__contenido">
 
                     <img
-                        src="${S}"
+                        src="${x}"
                         alt="Construcción Residencial"
                         class="sector__icono"
                     >
@@ -564,7 +564,7 @@
                 <div class="sector__contenido">
 
                     <img
-                        src="${C}"
+                        src="${S}"
                         alt="Centros Comerciales"
                         class="sector__icono"
                     >
@@ -583,7 +583,7 @@
                 <div class="sector__contenido">
 
                     <img
-                        src="${w}"
+                        src="${C}"
                         alt="Hoteles"
                         class="sector__icono"
                     >
@@ -602,7 +602,7 @@
                 <div class="sector__contenido">
 
                     <img
-                        src="${T}"
+                        src="${w}"
                         alt="Escuelas"
                         class="sector__icono"
                     >
@@ -617,7 +617,7 @@
 
     </section>
 
-    `}function D(){return`
+    `}function E(){return`
 
     <section class="experiencia" id="experiencia">
 
@@ -648,213 +648,213 @@ en nuestras     soluciones.
                 <!-- LOGOS -->
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/amstar.webp" alt="Amstar">
+                    <img src="/logo/amstar.webp" alt="Amstar">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/cingular.webp" alt="Cingular">
+                    <img src="/logo/cingular.webp" alt="Cingular">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/costco.webp" alt="Costco">
+                    <img src="/logo/costco.webp" alt="Costco">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/dollar-general.webp" alt="Dollar General">
+                    <img src="/logo/dollar-general.webp" alt="Dollar General">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/extraspace.webp" alt="Extra Space Storage">
+                    <img src="/logo/extraspace.webp" alt="Extra Space Storage">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/food-city.webp" alt="Food City">
+                    <img src="/logo/food-city.webp" alt="Food City">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/food-lion.webp" alt="Food Lion">
+                    <img src="/logo/food-lion.webp" alt="Food Lion">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/golden-corral.webp" alt="Golden Corral">
+                    <img src="/logo/golden-corral.webp" alt="Golden Corral">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/goodwill.webp" alt="Goodwill">
+                    <img src="/logo/goodwill.webp" alt="Goodwill">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/gordon.webp" alt="Gordon Food Service">
+                    <img src="/logo/gordon.webp" alt="Gordon Food Service">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/hardees.webp" alt="Hardee's">
+                    <img src="/logo/hardees.webp" alt="Hardee's">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/home-depot.webp" alt="Home Depot">
+                    <img src="/logo/home-depot.webp" alt="Home Depot">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/king-soopers.webp" alt="King Soopers">
+                    <img src="/logo/king-soopers.webp" alt="King Soopers">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/kroger.webp" alt="Kroger">
+                    <img src="/logo/kroger.webp" alt="Kroger">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/lowes.webp" alt="Lowe's">
+                    <img src="/logo/lowes.webp" alt="Lowe's">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/old-navy.webp" alt="Old Navy">
+                    <img src="/logo/old-navy.webp" alt="Old Navy">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/oreilly.webp" alt="O'Reilly">
+                    <img src="/logo/oreilly.webp" alt="O'Reilly">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/petco.webp" alt="Petco">
+                    <img src="/logo/petco.webp" alt="Petco">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/petsuits.webp" alt="PetSuites">
+                    <img src="/logo/petsuits.webp" alt="PetSuites">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/rack-room.webp" alt="Rack Room Shoes">
+                    <img src="/logo/rack-room.webp" alt="Rack Room Shoes">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/tj-maxx.webp" alt="TJ Maxx">
+                    <img src="/logo/tj-maxx.webp" alt="TJ Maxx">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/tsc.webp" alt="Tractor Supply">
+                    <img src="/logo/tsc.webp" alt="Tractor Supply">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/verizon.webp" alt="Verizon">
+                    <img src="/logo/verizon.webp" alt="Verizon">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/waffle-house.webp" alt="Waffle House">
+                    <img src="/logo/waffle-house.webp" alt="Waffle House">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/walgreens.webp" alt="Walgreens">
+                    <img src="/logo/walgreens.webp" alt="Walgreens">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/walmart.webp" alt="Walmart">
+                    <img src="/logo/walmart.webp" alt="Walmart">
                 </div>
 
                 <!-- DUPLICADOS PARA LOOP INFINITO -->
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/amstar.webp" alt="Amstar">
+                    <img src="/logo/amstar.webp" alt="Amstar">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/cingular.webp" alt="Cingular">
+                    <img src="/logo/cingular.webp" alt="Cingular">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/costco.webp" alt="Costco">
+                    <img src="/logo/costco.webp" alt="Costco">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/dollar-general.webp" alt="Dollar General">
+                    <img src="/logo/dollar-general.webp" alt="Dollar General">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/extraspace.webp" alt="Extra Space Storage">
+                    <img src="/logo/extraspace.webp" alt="Extra Space Storage">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/food-city.webp" alt="Food City">
+                    <img src="/logo/food-city.webp" alt="Food City">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/food-lion.webp" alt="Food Lion">
+                    <img src="/logo/food-lion.webp" alt="Food Lion">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/golden-corral.webp" alt="Golden Corral">
+                    <img src="/logo/golden-corral.webp" alt="Golden Corral">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/goodwill.webp" alt="Goodwill">
+                    <img src="/logo/goodwill.webp" alt="Goodwill">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/gordon.webp" alt="Gordon Food Service">
+                    <img src="/logo/gordon.webp" alt="Gordon Food Service">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/hardees.webp" alt="Hardee's">
+                    <img src="/logo/hardees.webp" alt="Hardee's">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/home-depot.webp" alt="Home Depot">
+                    <img src="/logo/home-depot.webp" alt="Home Depot">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/king-soopers.webp" alt="King Soopers">
+                    <img src="/logo/king-soopers.webp" alt="King Soopers">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/kroger.webp" alt="Kroger">
+                    <img src="/logo/kroger.webp" alt="Kroger">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/lowes.webp" alt="Lowe's">
+                    <img src="/logo/lowes.webp" alt="Lowe's">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/old-navy.webp" alt="Old Navy">
+                    <img src="/logo/old-navy.webp" alt="Old Navy">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/oreilly.webp" alt="O'Reilly">
+                    <img src="/logo/oreilly.webp" alt="O'Reilly">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/petco.webp" alt="Petco">
+                    <img src="/logo/petco.webp" alt="Petco">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/petsuits.webp" alt="PetSuites">
+                    <img src="/logo/petsuits.webp" alt="PetSuites">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/rack-room.webp" alt="Rack Room Shoes">
+                    <img src="/logo/rack-room.webp" alt="Rack Room Shoes">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/tj-maxx.webp" alt="TJ Maxx">
+                    <img src="/logo/tj-maxx.webp" alt="TJ Maxx">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/tsc.webp" alt="Tractor Supply">
+                    <img src="/logo/tsc.webp" alt="Tractor Supply">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/verizon.webp" alt="Verizon">
+                    <img src="/logo/verizon.webp" alt="Verizon">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/waffle-house.webp" alt="Waffle House">
+                    <img src="/logo/waffle-house.webp" alt="Waffle House">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/walgreens.webp" alt="Walgreens">
+                    <img src="/logo/walgreens.webp" alt="Walgreens">
                 </div>
 
                 <div class="experiencia__cliente">
-                    <img src="/src/assets/logo/walmart.webp" alt="Walmart">
+                    <img src="/logo/walmart.webp" alt="Walmart">
                 </div>
 
             </div>
@@ -863,7 +863,7 @@ en nuestras     soluciones.
 
     </section>
 
-    `}function O(){return`
+    `}function D(){return`
 
     <section class="presencia" id="presencia">
 
@@ -954,7 +954,7 @@ en nuestras     soluciones.
 
     </section>
 
-    `}function k(){let e=document.querySelectorAll(`.presencia__numero`);if(!e.length)return;let t=new IntersectionObserver((e,t)=>{e.forEach(e=>{if(!e.isIntersecting)return;let n=e.target;A(n,Number(n.dataset.target)),t.unobserve(n)})},{threshold:.5});e.forEach(e=>{t.observe(e)})}function A(e,t){let n=performance.now();function r(i){let a=Math.min((i-n)/1600,1);if(a<.7)e.textContent=`+${Math.floor(Math.random()*Math.max(t*1.5,20))}`;else{let n=1-(1-(a-.7)/.3)**4;e.textContent=`+${Math.floor(t*n)}`}a<1?requestAnimationFrame(r):e.textContent=`+${t}`}requestAnimationFrame(r)}var j=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-flask-conical'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M14%202v6a2%202%200%200%200%20.245.96l5.51%2010.08A2%202%200%200%201%2018%2022H6a2%202%200%200%201-1.755-2.96l5.51-10.08A2%202%200%200%200%2010%208V2'%20/%3e%3cpath%20d='M6.453%2015h11.094'%20/%3e%3cpath%20d='M8.5%202h7'%20/%3e%3c/svg%3e`,M=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-play-circle'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M9%209.003a1%201%200%200%201%201.517-.859l4.997%202.997a1%201%200%200%201%200%201.718l-4.997%202.997A1%201%200%200%201%209%2014.996z'%20/%3e%3ccircle%20cx='12'%20cy='12'%20r='10'%20/%3e%3c/svg%3e`;function N(){return`
+    `}function O(){let e=document.querySelectorAll(`.presencia__numero`);if(!e.length)return;let t=new IntersectionObserver((e,t)=>{e.forEach(e=>{if(!e.isIntersecting)return;let n=e.target;k(n,Number(n.dataset.target)),t.unobserve(n)})},{threshold:.5});e.forEach(e=>{t.observe(e)})}function k(e,t){let n=performance.now();function r(i){let a=Math.min((i-n)/1600,1);if(a<.7)e.textContent=`+${Math.floor(Math.random()*Math.max(t*1.5,20))}`;else{let n=1-(1-(a-.7)/.3)**4;e.textContent=`+${Math.floor(t*n)}`}a<1?requestAnimationFrame(r):e.textContent=`+${t}`}requestAnimationFrame(r)}var A=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-flask-conical'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M14%202v6a2%202%200%200%200%20.245.96l5.51%2010.08A2%202%200%200%201%2018%2022H6a2%202%200%200%201-1.755-2.96l5.51-10.08A2%202%200%200%200%2010%208V2'%20/%3e%3cpath%20d='M6.453%2015h11.094'%20/%3e%3cpath%20d='M8.5%202h7'%20/%3e%3c/svg%3e`,j=`data:image/svg+xml,%3c!--%20@license%20lucide-static%20v1.33.0%20-%20ISC%20--%3e%3csvg%20class='lucide%20lucide-play-circle'%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20%3e%3cpath%20d='M9%209.003a1%201%200%200%201%201.517-.859l4.997%202.997a1%201%200%200%201%200%201.718l-4.997%202.997A1%201%200%200%201%209%2014.996z'%20/%3e%3ccircle%20cx='12'%20cy='12'%20r='10'%20/%3e%3c/svg%3e`;function M(){return`
     <section id="recursos" class="recursos">
 
       <div class="recursos-container">
@@ -980,7 +980,7 @@ en nuestras     soluciones.
           <div class="recurso-card">
 
             <img
-              src="${i}"
+              src="${r}"
               alt="Certificaciones"
               class="recurso-icon"
             >
@@ -1008,7 +1008,7 @@ en nuestras     soluciones.
           <div class="recurso-card">
 
             <img
-              src="${j}"
+              src="${A}"
               alt="SDS"
               class="recurso-icon"
             >
@@ -1036,7 +1036,7 @@ en nuestras     soluciones.
           <div class="recurso-card">
 
             <img
-              src="${M}"
+              src="${j}"
               alt="Video de Instalación"
               class="recurso-icon"
             >
@@ -1064,7 +1064,7 @@ en nuestras     soluciones.
       </div>
 
     </section>
-  `}function P(){return`
+  `}function N(){return`
 
     <section id="contacto" class="contacto">
 
@@ -1172,14 +1172,14 @@ en nuestras     soluciones.
 
     </section>
 
-    `}function F(){return`
+    `}function P(){return`
     <footer class="footer">
 
       <div class="footer__container">
 
         <div class="footer__logo-box">
           <img
-            src="${e}"
+            src="/logo/logo-biofoam-blancoo.webp"
             alt="Bio Foam"
             class="footer__logo"
           >
@@ -1238,26 +1238,26 @@ en nuestras     soluciones.
     </footer>
   `}document.querySelector(`#app`).innerHTML=`
 
-    ${t()}
+    ${e()}
 
-    ${o()}
+    ${a()}
 
-    ${d()}
+    ${u()}
 
-    ${m()}
+    ${p()}
 
-    ${v()}
+    ${_()}
+
+    ${T()}
 
     ${E()}
 
     ${D()}
 
-    ${O()}
+    ${M()}
 
     ${N()}
 
     ${P()}
 
-    ${F()}
-
-`,n(),k(),window.addEventListener(`scroll`,()=>{let e=document.getElementById(`header`);e&&(window.scrollY>80?e.classList.add(`scrolled`):e.classList.remove(`scrolled`))});
+`,t(),O(),window.addEventListener(`scroll`,()=>{let e=document.getElementById(`header`);e&&(window.scrollY>80?e.classList.add(`scrolled`):e.classList.remove(`scrolled`))});

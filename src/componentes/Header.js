@@ -1,5 +1,3 @@
-import logoBiofoam from '../assets/logo/logo-biofoam-blancoo.webp';
-
 export function Header() {
 
     return `
@@ -9,7 +7,7 @@ export function Header() {
         <a href="#hero" class="header__logo">
 
             <img
-                src="${logoBiofoam}"
+                src="/logo/logo-biofoam-blancoo.webp"
                 alt="Bio Foam"
             >
 
