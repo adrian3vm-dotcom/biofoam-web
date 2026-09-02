@@ -21,7 +21,23 @@ export function Contacto() {
 
         </div>
 
-        <form class="contacto__formulario">
+        <form
+            class="contacto__formulario"
+            action="https://formsubmit.co/ventas@corefoam.mx"
+            method="POST"
+        >
+
+            <input
+                type="hidden"
+                name="_subject"
+                value="Nueva solicitud desde BIO FOAM"
+            >
+
+            <input
+                type="hidden"
+                name="_captcha"
+                value="false"
+            >
 
             <div class="contacto__grid">
 
@@ -31,7 +47,9 @@ export function Contacto() {
 
                     <input
                         type="text"
+                        name="nombre"
                         placeholder="Tu nombre"
+                        required
                     >
 
                 </div>
@@ -42,7 +60,9 @@ export function Contacto() {
 
                     <input
                         type="tel"
+                        name="telefono"
                         placeholder="Tu teléfono"
+                        required
                     >
 
                 </div>
@@ -53,7 +73,9 @@ export function Contacto() {
 
                     <input
                         type="email"
+                        name="email"
                         placeholder="correo@ejemplo.com"
+                        required
                     >
 
                 </div>
@@ -62,15 +84,38 @@ export function Contacto() {
 
                     <label>Tipo de proyecto</label>
 
-                    <select>
+                    <select
+                        name="tipo_proyecto"
+                        required
+                    >
 
-                        <option>Selecciona una opción</option>
-                        <option>Casa habitación</option>
-                        <option>Comercial</option>
-                        <option>Nave industrial</option>
-                        <option>Hospital</option>
-                        <option>Oficina</option>
-                        <option>Otro</option>
+                        <option value="">
+                            Selecciona una opción
+                        </option>
+
+                        <option>
+                            Casa habitación
+                        </option>
+
+                        <option>
+                            Comercial
+                        </option>
+
+                        <option>
+                            Nave industrial
+                        </option>
+
+                        <option>
+                            Hospital
+                        </option>
+
+                        <option>
+                            Oficina
+                        </option>
+
+                        <option>
+                            Otro
+                        </option>
 
                     </select>
 
@@ -85,7 +130,9 @@ export function Contacto() {
                 </label>
 
                 <textarea
+                    name="mensaje"
                     placeholder="Ejemplo: Mi casa se calienta demasiado durante las tardes y quiero conocer opciones para mejorar el confort térmico."
+                    required
                 ></textarea>
 
             </div>
@@ -100,7 +147,11 @@ export function Contacto() {
             <p class="contacto__privacidad">
 
                 Al enviar este formulario aceptas nuestra
-                <a href="/politicas.html" target="_blank">
+
+                <a
+                    href="/politicas.html"
+                    target="_blank"
+                >
                     Política de Privacidad
                 </a>
 
