@@ -39,6 +39,12 @@ export function Contacto() {
                 value="false"
             >
 
+            <input
+                type="hidden"
+                name="_next"
+                value="https://corefoam.mx"
+            >
+
             <div class="contacto__grid">
 
                 <div class="campo">
@@ -93,29 +99,12 @@ export function Contacto() {
                             Selecciona una opción
                         </option>
 
-                        <option>
-                            Casa habitación
-                        </option>
-
-                        <option>
-                            Comercial
-                        </option>
-
-                        <option>
-                            Nave industrial
-                        </option>
-
-                        <option>
-                            Hospital
-                        </option>
-
-                        <option>
-                            Oficina
-                        </option>
-
-                        <option>
-                            Otro
-                        </option>
+                        <option>Casa habitación</option>
+                        <option>Comercial</option>
+                        <option>Nave industrial</option>
+                        <option>Hospital</option>
+                        <option>Oficina</option>
+                        <option>Otro</option>
 
                     </select>
 
