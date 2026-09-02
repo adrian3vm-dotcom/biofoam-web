@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --verde:#7ED957;
+    --azul:#2F73D3;
+    --fondo:#05080C;
+    --card:#0C1118;
+    --texto:#FFFFFF;
+    --texto-sec:#B8C0CC;
+    --borde:rgba(255,255,255,.08);
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    background:var(--fondo);
+    color:var(--texto);
+    line-height:1.8;
+}
+
+/* ========================= */
+/* CONTENEDOR */
+/* ========================= */
+
+.privacy{
+    min-height:100vh;
+    padding:100px 20px;
+}
+
+.privacy__container{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+/* ========================= */
+/* VOLVER */
+/* ========================= */
+
+.privacy__back{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+
+    text-decoration:none;
+
+    color:var(--verde);
+
+    font-weight:600;
+
+    margin-bottom:50px;
+
+    transition:.3s;
+}
+
+.privacy__back:hover{
+    opacity:.8;
+}
+
+/* ========================= */
+/* LOGO */
+/* ========================= */
+
+.privacy__logo{
+    width:220px;
+    height:auto;
+
+    display:block;
+
+    margin:0 auto 35px;
+}
+
+/* ========================= */
+/* TAG */
+/* ========================= */
+
+.privacy__tag{
+
+    display:block;
+
+    width:max-content;
+
+    margin:0 auto 20px;
+
+    padding:8px 16px;
+
+    border-radius:50px;
+
+    background:rgba(126,217,87,.15);
+
+    color:var(--verde);
+
+    font-size:.8rem;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+}
+
+/* ========================= */
+/* TITULO */
+/* ========================= */
+
+h1{
+
+    text-align:center;
+
+    font-size:clamp(2.5rem,5vw,4rem);
+
+    font-weight:700;
+
+    margin-bottom:15px;
+}
+
+.privacy__updated{
+
+    text-align:center;
+
+    color:var(--texto-sec);
+
+    margin-bottom:60px;
+}
+
+/* ========================= */
+/* CARD */
+/* ========================= */
+
+.privacy__card{
+
+    background:var(--card);
+
+    border:1px solid var(--borde);
+
+    border-radius:24px;
+
+    padding:60px;
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,.35);
+}
+
+/* ========================= */
+/* TEXTO */
+/* ========================= */
+
+.privacy__card h2{
+
+    font-size:1.7rem;
+
+    color:var(--verde);
+
+    margin-top:40px;
+
+    margin-bottom:20px;
+}
+
+.privacy__card h2:first-child{
+    margin-top:0;
+}
+
+.privacy__card p{
+
+    color:var(--texto-sec);
+
+    margin-bottom:20px;
+
+    font-size:1rem;
+
+    line-height:1.9;
+}
+
+/* ========================= */
+/* FOOTER CARD */
+/* ========================= */
+
+.privacy__footer{
+
+    margin-top:50px;
+
+    padding-top:30px;
+
+    border-top:1px solid var(--borde);
+
+    color:var(--texto-sec);
+}
+
+.privacy__footer strong{
+
+    color:var(--texto);
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media(max-width:768px){
+
+    .privacy{
+
+        padding:60px 15px;
+    }
+
+    .privacy__logo{
+
+        width:170px;
+    }
+
+    .privacy__card{
+
+        padding:30px 25px;
+    }
+
+    h1{
+
+        font-size:2.2rem;
+    }
+
+    .privacy__card h2{
+
+        font-size:1.4rem;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .privacy__logo{
+
+        width:140px;
+    }
+
+    .privacy__card{
+
+        padding:25px 20px;
+    }
+
+}
