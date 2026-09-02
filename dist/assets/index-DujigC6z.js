@@ -241,7 +241,7 @@
 
     </section>
 
-    `}var d=`/biofoam-web/assets/core-vC7rhMs9.webp`,f=`/biofoam-web/assets/iso-LdeOe4Kn.webp`;function p(){return`
+    `}var d=`/assets/core-vC7rhMs9.webp`,f=`/assets/iso-LdeOe4Kn.webp`;function p(){return`
 
     <section id="soluciones" class="soluciones">
 
