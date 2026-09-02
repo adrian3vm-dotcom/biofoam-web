@@ -79,7 +79,7 @@ export function Presencia() {
                 <div class="presencia__mapa">
 
                     <img
-                        src="/src/assets/sectores/cobertura.webp"
+                        src="/img/cobertura.webp"
                         alt="Cobertura Bio Foam"
                     >
 
@@ -167,12 +167,6 @@ function animarNumeroPresencia(
                 (tiempo - inicio) / duracion,
                 1
             );
-
-        /*
-         * Durante el primer tramo aparecen
-         * números rápidos y aleatorios.
-         * Después aterriza en el número final.
-         */
 
         if (progreso < 0.7) {
 

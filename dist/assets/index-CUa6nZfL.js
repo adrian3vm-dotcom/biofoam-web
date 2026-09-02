@@ -942,7 +942,7 @@ en nuestras     soluciones.
                 <div class="presencia__mapa">
 
                     <img
-                        src="/src/assets/sectores/cobertura.webp"
+                        src="/img/cobertura.webp"
                         alt="Cobertura Bio Foam"
                     >
 
