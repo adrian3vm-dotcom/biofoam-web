@@ -1,4 +1,4 @@
-import logoBiofoam from '../assets/logo/logo-biofoam-blancoo.png';
+import logoBiofoam from '../assets/logo/logo-biofoam-blancoo.webp';
 
 export function Header() {
 

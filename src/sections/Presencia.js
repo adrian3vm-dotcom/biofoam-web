@@ -79,7 +79,7 @@ export function Presencia() {
                 <div class="presencia__mapa">
 
                     <img
-                        src="/src/assets/sectores/cobertura.png"
+                        src="/src/assets/sectores/cobertura.webp"
                         alt="Cobertura Bio Foam"
                     >
 

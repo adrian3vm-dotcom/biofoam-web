@@ -1,5 +1,5 @@
 import "../styles/footer.css";
-import logoBiofoam from '../assets/logo/logo-biofoam-blancoo.png';
+import logoBiofoam from '../assets/logo/logo-biofoam-blancoo.webp';
 
 export function Footer() {
   return `

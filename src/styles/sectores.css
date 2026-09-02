@@ -153,43 +153,43 @@
 
 .sector__imagen--hospital {
 
-    background-image: url('/src/assets/sectores/hospitales.png');
+    background-image: url('/src/assets/sectores/hospitales.webp');
 
 }
 
 .sector__imagen--industria {
 
-    background-image: url('/src/assets/sectores/industria.png');
+    background-image: url('/src/assets/sectores/industria.webp');
 
 }
 
 .sector__imagen--naves {
 
-    background-image: url('/src/assets/sectores/nave-industrial.png');
+    background-image: url('/src/assets/sectores/nave-industrial.webp');
 
 }
 
 .sector__imagen--residencial {
 
-    background-image: url('/src/assets/sectores/residencial.png');
+    background-image: url('/src/assets/sectores/residencial.webp');
 
 }
 
 .sector__imagen--comercial {
 
-    background-image: url('/src/assets/sectores/centroscomerciales.png');
+    background-image: url('/src/assets/sectores/centroscomerciales.webp');
 
 }
 
 .sector__imagen--hoteles {
 
-    background-image: url('/src/assets/sectores/hoteles.png');
+    background-image: url('/src/assets/sectores/hoteles.webp');
 
 }
 
 .sector__imagen--escuelas {
 
-    background-image: url('/src/assets/sectores/escuelas.png');
+    background-image: url('/src/assets/sectores/escuelas.webp');
 
 }
 

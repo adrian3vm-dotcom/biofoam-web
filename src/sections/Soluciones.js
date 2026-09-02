@@ -1,5 +1,5 @@
-import coreImg from "../assets/productos/core.jpg";
-import isoImg from "../assets/productos/iso.jpg";
+import coreImg from "../assets/productos/core.webp";
+import isoImg from "../assets/productos/iso.webp";
 
 export function Soluciones() {
 
